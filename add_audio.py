@@ -21,6 +21,7 @@ final_video_path = os.path.join(final_video_path, final_video_name)
 #     os.makedirs(mix_audio_dir)
 
 video_clip = VideoFileClip(org_video_path)
+print("Video Clip Generated")
 
 # to extract the original audio from the video file.
 # original_audio = video_clip.audio
